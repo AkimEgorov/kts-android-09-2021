@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Strava</string>
+    <string name="Welcome_text">Добро пожаловать в Strava!</string>
+    <string name="welcome_small">Лучшее приложение для спортсменов</string>
+    <string name="btn_text">Далее</string>
+</resources>
