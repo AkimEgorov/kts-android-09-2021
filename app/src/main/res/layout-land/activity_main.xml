@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgroundColor"
+    android:background="@color/textColor"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="170dp"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginTop="90dp"
         app:srcCompat="@drawable/strava_logo" />
 
     <TextView
@@ -24,7 +24,7 @@
         android:layout_below="@id/logo"
         android:layout_marginTop="20dp"
         android:textSize="32dp"
-        android:textColor="@color/textColor" />
+        android:textColor="@color/backgroundColor" />
 
     <TextView
         android:id="@+id/welcomeSmall_text"
@@ -34,7 +34,7 @@
         android:fontFamily="@font/montserrat_bold"
         android:text="@string/welcome_small"
         android:textAlignment="center"
-        android:textColor="@color/textColor"
+        android:textColor="@color/backgroundColor"
         android:textSize="14sp" />
 
     <Button
@@ -42,12 +42,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/welcomeSmall_text"
-        android:layout_marginHorizontal="130dp"
-        android:layout_marginTop="34dp"
-        android:backgroundTint="@color/textColor"
+        android:layout_marginHorizontal="270dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/montserrat_bold"
         android:text="@string/btn_text"
-        android:textSize="16dp"
-        android:textColor="@color/backgroundColor" />
-
+        android:textAlignment="center"
+        android:backgroundTint="@color/textColor"
+        android:textColor="@color/backgroundColor"
+        android:textSize="14dp" />
 </RelativeLayout>
